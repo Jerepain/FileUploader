@@ -13,7 +13,7 @@ namespace FileUploader.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<FirstViewModel>();
+            RegisterAppStart<MainViewModel>();
         }
     }
 }
